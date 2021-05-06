@@ -109,27 +109,20 @@ body {
 
 /* --- RESPONSIVE DESIGN MOBILE ----  */
 
-/* MAX RESOLUTION 400PX */
-@media only screen and (max-width: 400px) {
-   body {
-       top:0px;
+/* MAX RESOLUTION 500px */
+@media only screen and (max-width: 300px) {
+   #card {
+    top:0px;
        bottom: 0px;
        left: 0px;
        right: 0px;
-       position: absolute;
+       width: auto;
        transform: scale(0.7);
+   }
+
+   #avatar{
+       transform: scale(0.9);
    }
 }
 
-/* Optional resolution 290 */
-@media only screen and (max-width: 290) {
-    body {
-        top:0px;
-        bottom: 0px;
-        left: 0px;
-        right: 0px;
-        position: absolute;
-        transform: scale(0.6);
-    }
- }
  
