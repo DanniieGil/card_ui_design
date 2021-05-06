@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:900");
 
 body {
-    background-image: url(/img/background_profile.jpg);
+    background-image: url(./img/background_profile.jpg);
     background-size: auto;
     overflow: hidden;
     font-family: "Montserrat", sans-serif;
@@ -12,7 +12,7 @@ body {
     text-align: center;
     width: 320px;
     height: 535px;  
-    background-image: url(/img/background_profile.jpg);
+    background-image: url(./img/background_profile.jpg);
     background-size: cover;
     background-position:  center center;
     position: absolute;
